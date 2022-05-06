@@ -1,0 +1,124 @@
+.lsp {
+    width: 100px;
+}
+
+
+
+#sub {
+    border-radius: 30px;
+    width: 80px;
+    margin-left: 20px;
+}
+
+/* 瀑布流 */
+.box {
+    
+    position: relative;
+    width: 100%;
+    height: 100px;
+    margin: 50px auto;
+}
+
+.item {
+    width: 232px;
+    position: absolute;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.item>img {
+    width: 100%;
+    display: block;
+}
+
+.item>p {
+    margin: 0;
+    padding: 10px;
+    background: #eee;
+}
+
+.btn11 {
+    width: 280px;
+    height: 40px;
+    margin: 30px auto;
+    text-align: center;
+    line-height: 40px;
+    background-color: #CCC;
+    border-radius: 6px;
+    font-size: 24px;
+    /* cursor: pointer; */
+  }
+
+
+.loading {
+    background-color: transparent;
+}
+
+.shopp{
+    text-align: center;
+    
+}
+
+
+
+
+/* 尾部 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.div7 {
+    margin-top: 50px;
+    height: 300px;
+    background-color: #222222;
+
+}
+
+.ul5 {
+    float: left;
+    margin-top: 65px;
+    margin-left: 73px;
+}
+
+.ul5 li {
+    float: left;
+    width: 75px;
+    height: 18px;
+    text-align: center;
+    line-height: 18px;
+    border-right: 1px solid rgb(151, 151, 151);
+    color: rgb(151, 151, 151);
+
+}
+
+.div71 {
+    float: right;
+    color: rgb(151, 151, 151);
+    margin-top: 63px;
+    margin-right: 82px;
+}
+
+.botsp2 {
+    font-size: 23px;
+
+}
+
+.div72 {
+    float: left;
+    margin-top: 10px;
+    margin-left: 94px;
+    line-height: 25px;
+    color: rgb(119, 119, 119);
+}
+
+.img5 {
+    margin: 0 auto;
+    margin-top: 260px;
+
+}

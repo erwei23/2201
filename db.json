@@ -2,83 +2,464 @@
   "problem1": [
     {
       "id": 1,
-      "headP":"./images/07.webp",
+      "headP": "./images/07.webp",
       "name": "艾特",
       "source": "热门内容",
       "userText": "易洋千玺",
-      "image":["./images/08.webp","./images/09.webp","./images/12.jpeg"],
-      "fabulous":26,
-      "Collection":51
+      "image": [
+        "./images/08.webp",
+        "./images/09.webp",
+        "./images/12.jpeg"
+      ],
+      "fabulous": 26,
+      "Collection": 51
     },
     {
       "id": 2,
-      "headP":"./images/06.webp",
+      "headP": "./images/06.webp",
       "name": "艾特2",
       "source": "热门内容",
       "userText": "易洋千玺",
-      "image":["./images/08.webp","./images/09.webp","./images/11.jpeg"],
-      "fabulous":36,
-      "Collection":511
+      "image": [
+        "./images/08.webp",
+        "./images/09.webp",
+        "./images/11.jpeg"
+      ],
+      "fabulous": 36,
+      "Collection": 511
     },
     {
       "id": 3,
-      "headP":"./images/06.webp",
+      "headP": "./images/06.webp",
       "name": "艾特2",
       "source": "热门内容",
       "userText": "易洋千玺",
-      "image":["./images/08.webp","./images/09.webp","./images/11.jpeg"],
-      "fabulous":36,
-      "Collection":45
+      "image": [
+        "./images/08.webp",
+        "./images/09.webp",
+        "./images/11.jpeg"
+      ],
+      "fabulous": 36,
+      "Collection": 45
     },
     {
       "id": 4,
-      "headP":"./images/104.webp",
+      "headP": "./images/104.webp",
       "name": "艾特2",
       "source": "热门内容",
       "userText": "易洋千玺",
-      "image":["./images/08.webp","./images/09.webp","./images/11.jpeg"],
-      "fabulous":36,
-      "Collection":511
+      "image": [
+        "./images/08.webp",
+        "./images/09.webp",
+        "./images/11.jpeg"
+      ],
+      "fabulous": 36,
+      "Collection": 511
     },
     {
       "id": 5,
-      "headP":"./images/103.webp",
+      "headP": "./images/103.webp",
       "name": "艾特2",
       "source": "热门内容",
       "userText": "易洋千玺",
-      "image":["./images/08.webp","./images/09.webp","./images/11.jpeg"],
-      "fabulous":36,
-      "Collection":511
+      "image": [
+        "./images/08.webp",
+        "./images/09.webp",
+        "./images/11.jpeg"
+      ],
+      "fabulous": 36,
+      "Collection": 511
     },
     {
       "id": 6,
-      "headP":"./images/104.webp",
+      "headP": "./images/104.webp",
       "name": "艾特2",
       "source": "热门内容",
       "userText": "易洋千玺",
-      "image":["./images/08.webp","./images/09.webp","./images/11.jpeg"],
-      "fabulous":36,
-      "Collection":511
+      "image": [
+        "./images/08.webp",
+        "./images/09.webp",
+        "./images/11.jpeg"
+      ],
+      "fabulous": 36,
+      "Collection": 511
     },
     {
       "id": 7,
-      "headP":"./images/103.webp",
+      "headP": "./images/103.webp",
       "name": "艾特2",
       "source": "热门内容",
       "userText": "易洋千玺",
-      "image":["./images/08.webp","./images/09.webp","./images/11.jpeg"],
-      "fabulous":36,
-      "Collection":511
+      "image": [
+        "./images/08.webp",
+        "./images/09.webp",
+        "./images/11.jpeg"
+      ],
+      "fabulous": 36,
+      "Collection": 511
     },
     {
       "id": 8,
-      "headP":"./images/100.webp",
+      "headP": "./images/100.webp",
       "name": "艾特2",
       "source": "热门内容",
       "userText": "易洋千玺",
-      "image":["./images/08.webp","./images/09.webp","./images/11.jpeg"],
-      "fabulous":36,
-      "Collection":511
+      "image": [
+        "./images/08.webp",
+        "./images/09.webp",
+        "./images/11.jpeg"
+      ],
+      "fabulous": 36,
+      "Collection": 511
+    }
+  ],
+  "jiejie": [
+    {
+      "id": 1,
+      "img": "./images/27.webp",
+      "text": "怒那 果果不想化妆 原截©Cherry",
+      "width": 232,
+      "height": 230
+    },
+    {
+      "id": 2,
+      "img": "./images/27.webp",
+      "text": "怒那 果果不想化妆 原截©Cherry",
+      "width": 232,
+      "height": 250
+    },
+    {
+      "id": 3,
+      "img": "./images/27.webp",
+      "text": "怒那 果果不想化妆 原截©Cherry",
+      "width": 232,
+      "height": 220
+    },
+    {
+      "id": 4,
+      "img": "./images/27.webp",
+      "text": "怒那 果果不想化妆 原截©Cherry",
+      "width": 232,
+      "height": 190
+    },
+    {
+      "id": 5,
+      "img": "./images/27.webp",
+      "text": "怒那 果果不想化妆 原截©Cherry",
+      "width": 232,
+      "height": 380
+    },
+    {
+      "id": 6,
+      "img": "./images/27.webp",
+      "text": "怒那 果果不想化妆 原截©Cherry",
+      "width": 232,
+      "height": 180
+    },
+    {
+      "id": 7,
+      "img": "./images/27.webp",
+      "text": "怒那 果果不想化妆 原截©Cherry",
+      "width": 232,
+      "height": 280
+    },
+    {
+      "id": 8,
+      "img": "./images/27.webp",
+      "text": "怒那 果果不想化妆 原截©Cherry",
+      "width": 232,
+      "height": 280
+    },
+    {
+      "id": 9,
+      "img": "./images/27.webp",
+      "text": "怒那 果果不想化妆 原截©Cherry",
+      "width": 232,
+      "height": 220
+    },
+    {
+      "id": 10,
+      "img": "./images/27.webp",
+      "text": "怒那 果果不想化妆 原截©Cherry",
+      "width": 232,
+      "height": 230
+    },
+    {
+      "id": 11,
+      "img": "./images/27.webp",
+      "text": "怒那 果果不想化妆 原截©Cherry",
+      "width": 232,
+      "height": 280
+    },
+    {
+      "id": 12,
+      "img": "./images/27.webp",
+      "text": "怒那 果果不想化妆 原截©Cherry",
+      "width": 232,
+      "height": 270
+    },
+    {
+      "id": 13,
+      "img": "./images/27.webp",
+      "text": "怒那 果果不想化妆 原截©Cherry",
+      "width": 232,
+      "height": 210
+    },
+    {
+      "id": 14,
+      "img": "./images/27.webp",
+      "text": "怒那 果果不想化妆 原截©Cherry",
+      "width": 232,
+      "height": 180
+    },
+    {
+      "id": 15,
+      "img": "./images/27.webp",
+      "text": "怒那 果果不想化妆 原截©Cherry",
+      "width": 232,
+      "height": 150
+    },
+    {
+      "id": 16,
+      "img": "./images/27.webp",
+      "text": "怒那 果果不想化妆 原截©Cherry",
+      "width": 232,
+      "height": 160
+    },
+    {
+      "id": 17,
+      "img": "./images/27.webp",
+      "text": "怒那 果果不想化妆 原截©Cherry",
+      "width": 232,
+      "height": 190
+    },
+    {
+      "id": 18,
+      "img": "./images/27.webp",
+      "text": "怒那 果果不想化妆 原截©Cherry",
+      "width": 232,
+      "height": 280
+    },
+    {
+      "id": 19,
+      "img": "./images/27.webp",
+      "text": "怒那 果果不想化妆 原截©Cherry",
+      "width": 232,
+      "height": 210
+    },
+    {
+      "id": 20,
+      "img": "./images/27.webp",
+      "text": "怒那 果果不想化妆 原截©Cherry",
+      "width": 232,
+      "height": 110
+    },
+    {
+      "id": 21,
+      "img": "./images/27.webp",
+      "text": "怒那 果果不想化妆 原截©Cherry",
+      "width": 232,
+      "height": 270
+    },
+    {
+      "id": 22,
+      "img": "./images/27.webp",
+      "text": "怒那 果果不想化妆 原截©Cherry",
+      "width": 232,
+      "height": 210
+    },
+    {
+      "id": 23,
+      "img": "./images/27.webp",
+      "text": "怒那 果果不想化妆 原截©Cherry",
+      "width": 232,
+      "height": 180
+    },
+    {
+      "id": 24,
+      "img": "./images/27.webp",
+      "text": "怒那 果果不想化妆 原截©Cherry",
+      "width": 232,
+      "height": 150
+    },
+    {
+      "id": 25,
+      "img": "./images/27.webp",
+      "text": "怒那 果果不想化妆 原截©Cherry",
+      "width": 232,
+      "height": 160
+    },
+    {
+      "id": 26,
+      "img": "./images/27.webp",
+      "text": "怒那 果果不想化妆 原截©Cherry",
+      "width": 232,
+      "height": 190
+    },
+    {
+      "id": 27,
+      "img": "./images/27.webp",
+      "text": "怒那 果果不想化妆 原截©Cherry",
+      "width": 232,
+      "height": 280
+    },
+    {
+      "id": 28,
+      "img": "./images/27.webp",
+      "text": "怒那 果果不想化妆 原截©Cherry",
+      "width": 232,
+      "height": 210
+    },
+    {
+      "id": 29,
+      "img": "./images/27.webp",
+      "text": "怒那 果果不想化妆 原截©Cherry",
+      "width": 232,
+      "height": 110
+    },
+    {
+      "id": 30,
+      "img": "./images/27.webp",
+      "text": "怒那 果果不想化妆 原截©Cherry",
+      "width": 232,
+      "height": 230
+    },
+    {
+      "id": 31,
+      "img": "./images/27.webp",
+      "text": "怒那 果果不想化妆 原截©Cherry",
+      "width": 232,
+      "height": 280
+    },
+    {
+      "id": 32,
+      "img": "./images/27.webp",
+      "text": "怒那 果果不想化妆 原截©Cherry",
+      "width": 232,
+      "height": 270
+    },
+    {
+      "id": 33,
+      "img": "./images/27.webp",
+      "text": "怒那 果果不想化妆 原截©Cherry",
+      "width": 232,
+      "height": 210
+    },
+    {
+      "id": 34,
+      "img": "./images/27.webp",
+      "text": "怒那 果果不想化妆 原截©Cherry",
+      "width": 232,
+      "height": 180
+    },
+    {
+      "id": 35,
+      "img": "./images/27.webp",
+      "text": "怒那 果果不想化妆 原截©Cherry",
+      "width": 232,
+      "height": 150
+    },
+    {
+      "id": 36,
+      "img": "./images/27.webp",
+      "text": "怒那 果果不想化妆 原截©Cherry",
+      "width": 232,
+      "height": 160
+    },
+    {
+      "id": 37,
+      "img": "./images/27.webp",
+      "text": "怒那 果果不想化妆 原截©Cherry",
+      "width": 232,
+      "height": 190
+    },
+    {
+      "id": 38,
+      "img": "./images/27.webp",
+      "text": "怒那 果果不想化妆 原截©Cherry",
+      "width": 232,
+      "height": 280
+    },
+    {
+      "id": 39,
+      "img": "./images/27.webp",
+      "text": "怒那 果果不想化妆 原截©Cherry",
+      "width": 232,
+      "height": 210
+    },
+    {
+      "id": 40,
+      "img": "./images/27.webp",
+      "text": "怒那 果果不想化妆 原截©Cherry",
+      "width": 232,
+      "height": 110
+    }
+  ],
+  "userInfo": [
+    {
+      "id": 1,
+      "user": "lierwei",
+      "confirmPassword": "123456"
+    },
+    {
+      "user": "li",
+      "confirmPassword": "li",
+      "id": 2
+    },
+    {
+      "user": "lidawei",
+      "confirmPassword": "123456",
+      "id": 3
+    }
+  ],
+  "myCollection": [
+    {
+      "img": "./images/08.webp",
+      "id": 1
+    },
+    {
+      "img": "./images/13.webp",
+      "id": 3
+    },
+    {
+      "img": "./images/13.webp",
+      "id": 4
+    },
+    {
+      "img": "./images/15.webp",
+      "id": 5
+    },
+    {
+      "img": "./images/16.webp",
+      "id": 6
+    },
+    {
+      "img": "file:///Users/k/Desktop/TBC/2201/images/27.webp",
+      "id": 7
+    },
+    {
+      "img": "file:///Users/k/Desktop/TBC/2201/images/27.webp",
+      "id": 9
+    },
+    {
+      "img": "file:///Users/k/Desktop/TBC/2201/images/27.webp",
+      "id": 10
+    },
+    {
+      "img": "file:///Users/k/Desktop/TBC/2201/images/27.webp",
+      "id": 11
+    },
+    {
+      "img": "file:///Users/k/Desktop/TBC/2201/images/27.webp",
+      "id": 12
+    },
+    {
+      "img": "file:///Users/k/Desktop/TBC/2201/images/27.webp",
+      "id": 13
+    },
+    {
+      "img": "file:///Users/k/Desktop/TBC/2201/images/27.webp",
+      "id": 14
     }
   ]
 }

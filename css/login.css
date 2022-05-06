@@ -1,0 +1,25 @@
+.logo{
+    width: 150px;
+    margin-left: 42%;
+    margin-top: 100px;
+}
+#regSI{
+    margin-left: 44%;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+#txt{
+    width: 300px;
+    margin: 20px auto;
+}
+#go{
+    width: 300px;
+    margin-left: 42%;
+}
+#register{
+    margin-left: 34%;
+}
+
+#register button:nth-of-type(1){
+    margin-right: 193px;
+}

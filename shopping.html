@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap-3.4.1-dist/css/bootstrap.min.css">
+    <script src="https://fastly.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+    <script src="./bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./css/sopping.css">
+    <link rel="stylesheet" href="./font_3134346_3f4382iv1wh/iconfont.css">
+</head>
+
+<body>
+
+    <!-- 导航 -->
+    <nav class="navbar navbar-default navbar-inverse">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href=""> <img src="./images/没有更多笔记.png" alt="" class="lsp"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown" id="hglb">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                            aria-expanded="false" id="fenlei">分类 <span class="caret"></span></a>
+                        <ul class="dropdown-menu" id="leibiao">
+                            <li><a href="#">截截</a></li>
+                            <li><a href="#">古风</a></li>
+                            <li><a href="#">动画</a></li>
+                            <li><a href="#">蠢物</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="navbar-form navbar-left">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="搜索感兴趣的内容">
+                    </div>
+                    <button type="submit" class="btn btn-default" id="sub">
+                        <span class="iconfont icon-jiahao" id="jiahao"></span>发布
+                    </button>
+                </form>
+                <ul class="nav navbar-nav navbar-right" id="rightTwo">
+                    <!-- <li><a href="#">母鸡啊</a></li>
+                    <li><a href="#">注册/登录</a></li> -->
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    <div class="container">
+        <h2 class="userName">收藏</h2>
+        <div class="shoppingCar">
+            <img src="./images/01.webp" alt="">
+            <img src="./images/02.webp" alt="">
+            <img src="./images/03.webp" alt="">
+            <img src="./images/04.webp" alt="">
+            <img src="./images/05.webp" alt="">
+        </div>
+        <div class="ts">温馨提示直接点击图片可直接删除</div>
+    </div>
+
+    <!-- 页面尾部 -->
+    <div class="div7">
+        <ul class="ul5">
+           <li>首页</li>
+           <li>案例</li>
+           <li>关于</li>
+           <li>服务</li>
+           <li>营销</li>
+           <li>联系</li>
+           <li>新闻</li>
+        </ul>
+        <div class="div71">
+            <span class="botsp1">免费热线:</span><br>
+            <span class="botsp2">8621-61555551</span>
+        </div>
+        <div class="div72">
+            <p>-上海市天西路290号1501-1505 (上海火车站旁)沪ICP备12024896号-1</p>
+            <p>业务咨询: 8621-61555551 , 8621-31608860 / 400 -855-2855转1</p>
+            <p>售后服务8621-61525616 /8621-31608850</p>
+            <p>公司传真8621-31333224</p>
+        </div>
+        <img class="img5" src="./images/gotoway_33.png" alt="">
+    </div>
+
+    <!-- <script src="https://unpkg.com/axios/dist/axios.min.js"></script> -->
+    <script src="./node_modules/axios/dist/axios.js"></script>
+    <script src="./js/shopping.js"></script>
+</body>
+
+</html>

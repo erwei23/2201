@@ -1,15 +1,35 @@
 
 
-class Person {
+ class Person {
     //请求的基础地址
-    baseUsrl = 'http://localhost:3000/problem1';
+
+    problem1Url = 'http://localhost:3000/problem1';
+    jiejieUrl = 'http://localhost:3000/jiejie';
+    oldWindUrl = 'http://localhost:3000/oldWind';
+    animationUrl = 'http://localhost:3000/animation';
+    PetsUrl = 'http://localhost:3000/Pets';
+
     constructor() {
+        this.userName()
         this.getData()
+        this.eventOn()
     }
+    //添加事件方法
+    eventOn(){
+        //index图片点击事件
+        Person.$$('.lsp').addEventListener('click',this.indeximageClick.bind(this))
+        //发布点击事件
+        Person.$$('#sub').addEventListener('click',this.releaseClick.bind(this))
+        //四种分类点击事件
+        Person.$$('#leibiao').addEventListener('click',this.classification.bind(this))
+        //登录注册点击事件
+        Person.$$('#rightTwo').addEventListener('click',this.regSI.bind(this))
+    }
+
     //获取数据方法
     async getData() {
         //获取数据 
-        let { status, data } = await axios.get(this.baseUsrl)
+        let { status, data } = await axios.get(this.problem1Url)
         //console.log(data);
         // console.log(status,data);
         //判断返回值状态
@@ -68,33 +88,51 @@ class Person {
         })
         //console.log(conter);
         Person.$$('.container').innerHTML += conter;
+    }
 
-
-        // //分类移入事件
-        // Person.$$('#fenlei').addEventListener('mouseover',this.mouseoverFn.bind(this))
-        // //分类点击事件
-        // Person.$$('#leibiao').addEventListener('click',this.clickFn.bind(this))
-        // //随便点击让列表消失
-        // document.onclick = this.dcClickFn
-        // //lsp图片点击事件
-        // Person.$$('.lsp').addEventListener('click',this.lspClick.bind(this))
-    }
-    //分类移入事件方法
-    mouseoverFn() {
-        Person.$$('#leibiao').style.display = 'block';
-    }
-    //分类点击事件方法
-    clickFn() {
-        Person.$$('#leibiao').style.display = 'none';
-    }
-    //随便点击让列表消失
-    dcClickFn() {
-        Person.$$('#leibiao').style.display = 'none';
-    }
-    //lsp图片点击事件方法
-    lspClick() {
+    //index图片点击方法
+    indeximageClick() {
         // console.log(111);
+    }
 
+    //发布点击方法
+    releaseClick(){
+         alert('还没弄')
+    }
+
+    ////四种分类点击事件(事件委托)
+    async classification(eve){
+        let target = eve.target
+        //console.log(target);
+        window.location.href = 'waterfallFlow.html'    
+    }
+
+    //登录注册点击方法
+    regSI(eve){
+        let target = eve.target
+        if(target.innerHTML =='注册/登录'){
+            window.location.href = 'login.html'  
+        }
+    }
+
+    //用户名渲染
+    userName(){
+        let rightTwo = Person.$$('#rightTwo')
+        let storage1 = localStorage.getItem('userName')
+        //console.log(localStorage.getItem('userName'));
+        let html1 = ``
+        if(storage1){
+            html1 = `
+                <li><a href="shopping.html">收藏</a></li>
+                <li><a href="#">${storage1}</a></li>
+            `
+        }else{
+            html1 = `
+                <li><a href="shopping.html">收藏</a></li>
+                <li><a href="#">注册/登录</a></li>
+            `
+        }
+        rightTwo.innerHTML = html1
     }
 
     //获取节点对象方法
